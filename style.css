@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    
+}
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+    
+}
+
+body{
+    background-color:  var(--body-bg-color); 
+    font-family: 'Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14.5px;
+    
+}
+
+img{
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    left: 50vw;
+    top: 0;
+}
+
+#logo{
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    left: 30px;
+    top: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 35vh;
+    margin-left: 2.25em;
+    color: var(--text-color);
+    line-height: 26px;
+    
+    
+}
+h2{
+    color: var(--title-color);
+  
+}
+
+form{
+    position: absolute;
+    left: 36px;
+    top: 388px;
+    
+    
+}
+
+fieldset{
+    border: none;
+    line-height: 35px;
+    color: var(--text-color);
+}
+
+#input{
+    width: 790px;
+    height: 44px;
+    background-color: var(--form-color);
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+
+button{
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    background: url(./imagens/send-icon.svg) no-repeat center;
+    background-color: var(--bg-button-color);
+    background-size: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#6434d4 ;
+}
+
+a{
+    position: absolute;
+    
+    left: 40px;
+    top: 555px;
+    text-decoration: none;
+    color: var(--bg-button-color);
+    text-align: center;
+}
+
+#arrow{
+    width: 16px;
+    height: 16px;
+    top: 2.3px;
+    left: 160px;        
+}
+
+
